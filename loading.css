@@ -1,0 +1,30 @@
+body {
+      font-family: sans-serif;
+      background-color: #121212;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    .loader {
+      margin-bottom: 20px;
+      border: 6px solid #f3f3f3;
+      border-top: 6px solid #00f2fe;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .countdown {
+      font-size: 20px;
+      margin-top: 10px;
+    }
